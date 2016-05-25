@@ -3,7 +3,7 @@
  */
 
 /* Links */
-
+h2 {font-size: 36px;}
 a,
 a:focus,
 a:hover {
@@ -100,13 +100,18 @@ margin-right: auto;
   color: #fff;
   border-bottom-color: #fff;
 }
-
+#map {
+  height: 75%;
+  width: 75%;
+}
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    
   }
   .masthead-nav {
     float: right;
+     
   }
 }
 

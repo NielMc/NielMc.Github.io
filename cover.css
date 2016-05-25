@@ -3,6 +3,7 @@
  */
 
 /* Links */
+h2 {font-size: 36px;}
 a,
 a:focus,
 a:hover {
@@ -59,6 +60,11 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.row {
+margin-right: auto;
+  margin-left: auto;
+
+}
 
 /* Padding for spacing */
 .inner {
@@ -101,13 +107,18 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+#map {
+  height: 75%;
+  width: 75%;
+}
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    
   }
   .masthead-nav {
     float: right;
+     
   }
 }
 
@@ -160,7 +171,6 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,

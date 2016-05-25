@@ -3,6 +3,7 @@
  */
 
 /* Links */
+h2 {font-size: 36px;}
 a,
 a:focus,
 a:hover {
@@ -18,8 +19,15 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
+.navbar-fixed-bottom ul li {
 
-
+  
+  display:inline-block;
+  padding:30px;
+}
+.navbar-fixed-bottom {
+  background-color: transparent;
+}
 /*
  * Base structure
  */
@@ -52,10 +60,15 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+.row {
+margin-right: auto;
+  margin-left: auto;
+
+}
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 20px;
 }
 
 
@@ -94,13 +107,18 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
-
+#map {
+  height: 75%;
+  width: 75%;
+}
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
+    
   }
   .masthead-nav {
     float: right;
+     
   }
 }
 
@@ -153,7 +171,6 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,

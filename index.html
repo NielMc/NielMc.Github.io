@@ -12,11 +12,14 @@
 			background-size: 100%;
 			
 		}
+		button a { color:black; 
+    }
+
     button a{
       color: black;}
     .chooser {text-shadow:none;}
 
-		
+	
 	</style>
 	
 </head>
@@ -46,8 +49,14 @@
             	Have you had trouble finding outdoor pursuit sites?
             </p>
             <p class="lead">
-            Find an activity
-            
+
+            Find a place
+            <form class="navbar-form navbar-center" role="search">
+            <div class="form-group">
+            	<input type="text" placeholder="Enter placename" class="form-control">
+            </div>
+                <button type="submit" class="btn btn-md btn-default"><a href="hiking.html">Submit</a></button>
+                  </form>            
             <form class="navbar-form navbar-center" role="search">
             <div class="btn-group">
             <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -63,7 +72,14 @@
             </p>
           </div>
 
-  <nav class="navbar navbar-default navbar-fixed-bottom">        
+
+          <div class="mastfoot">
+
+            <div class="inner">
+              tstrap</a>, <p>Cover template for <a href="http://getbootstrap.com">Booby <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+            <nav class="navbar navbar-default navbar-fixed-bottom">
+
   <div class="container">
     <ul> 
     <li>Contact</li>
@@ -81,7 +97,7 @@
     </div>
 
     <!-- Bootstrap core JavaScript
-    ================================================== -->
+    -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>

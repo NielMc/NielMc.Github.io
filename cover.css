@@ -3,6 +3,7 @@
  */
 
 /* Links */
+
 a,
 a:focus,
 a:hover {
@@ -51,6 +52,11 @@ body {
 .cover-container {
   margin-right: auto;
   margin-left: auto;
+}
+.row {
+margin-right: auto;
+  margin-left: auto;
+
 }
 
 /* Padding for spacing */
@@ -153,7 +159,6 @@ body {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
-
 @media (min-width: 992px) {
   .masthead,
   .mastfoot,

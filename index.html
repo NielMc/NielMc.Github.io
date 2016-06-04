@@ -9,7 +9,8 @@
 		.site-wrapper {
 			
 			background-image: url("img/P8121268.JPG");
-			background-size: 100%;
+			background-size: cover;
+      background-position: center;
 			
 		}
 		button a { color:black; 
@@ -52,8 +53,14 @@
 
             Find a place
                        
-            <form class="navbar-form navbar-center" role="search">
-            <div class="btn-group">
+            <form class="navbar-form navbar-center form-inline" role="search">
+            <div class="form-group">
+            <label>Placename</label>
+            <input type="text" class="form-control" placeholder="enter a location" >
+              
+            </div>
+            <div class="btn-group form-group">
+            <label for="">Activity</label>
             <button class="btn btn-default btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Select <span class="caret"></span>
             </button>
